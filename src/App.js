@@ -15,7 +15,6 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Victoria Baths</h1>
         <div className="nav">
           <Nav />
         </div>
