@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Switch, } from 'react-router-dom';
+import { Link, Route, Switch, } from 'react-router-dom';
 
 import './App.css';
 
@@ -22,7 +22,7 @@ function App() {
       </header>
       <main>
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route exact={true} path="/" component={Home} />
           <Route path="/Visit" component={Visit} />
           <Route path="/History" component={History} />
           <Route path="/Support" component={Support} />

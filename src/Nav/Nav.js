@@ -1,18 +1,30 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
+import { Link, Route, Switch } from 'react-router-dom';
 import './Nav.css';
 
 
 function Nav() {
     return (
         <div className="nav-main">
-            <div className="nav-text">
-                <Link to="/">Home </Link>
-                <Link to="/Visit ">Visit</Link>
-                <Link to="/History ">History </Link>
-                <Link to="/Support ">Support Us </Link>
-                <Link to="/Hire ">Hire Us</Link>
-            </div>
+            <nav className="navbar">
+                <ul className="nav-list">
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/Visit">Visit</Link>
+                    </li>
+                    <li>
+                        <Link to="/History">History</Link>
+                    </li>
+                    <li>
+                        <Link to="/Support">Support</Link>
+                    </li>
+                    <li>
+                        <Link to="/Hire">Hire</Link>
+                    </li>
+                </ul>
+            </nav>
         </div>
     );
 }
