@@ -20,7 +20,6 @@ import History16 from './Images/m16.jpg';
 import History17 from './Images/m17.jpg';
 import History18 from './Images/m18.jpg';
 
-
 function History() {
   return (
     <div className="container history-main">
