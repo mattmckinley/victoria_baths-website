@@ -1,0 +1,23 @@
+/* Hire form styling */
+.hire-enquire-title {
+    margin: 50px 50px 20px 50px;
+}
+.hire-form {
+    background-color: blueviolet;
+    margin: 20px 50px 50px 50px;
+    padding: 20px 20px 20px 20px;
+}
+.form-row {
+    padding-bottom: 10px;
+}
+.form-text-desc {
+    color: white;
+}
+
+
+/* Media querys */
+@media (max-width: 767.98px) {
+    .form-row-top {
+        padding-bottom: 10px;
+    }
+}

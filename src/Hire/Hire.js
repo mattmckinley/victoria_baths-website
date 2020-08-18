@@ -91,41 +91,46 @@ function Hire() {
       </div>
       <div className="hire-form">
         <form>
-          <div class="form-row">
-            <div class="col-12 col-md-4">
-              <input type="text" class="form-control" placeholder="First name" />
+          <div className="form-row">
+            <div className="form-row-top col-12 col-md-4">
+              <input type="text" className="form-control" placeholder="First name" />
             </div>
-            <div class="col-12 col-md-4">
-              <input type="text" class="form-control" placeholder="Last name" />
+            <div className="form-row-top col-12 col-md-4">
+              <input type="text" className="form-control" placeholder="Last name" />
             </div>
-            <div class="col-12 col-md-4">
-              <input type="text" class="form-control" placeholder="Email Address" />
+            <div className="form-row-top col-12 col-md-4">
+              <input type="text" className="form-control" placeholder="Email Address" />
             </div>
           </div>
-          <div class="form-row">
-            <input type="text" class="form-control" id="inputAddress" placeholder="Address Line 1" />
+          <div className="form-row">
+            <input type="text" className="form-control" id="inputAddress" placeholder="Address Line 1" />
           </div>
-          <div class="form-row">
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Address Line 2" />
+          <div className="form-row">
+            <input type="text" className="form-control" id="inputAddress2" placeholder="Address Line 2" />
           </div>
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <input type="text" class="form-control" id="inputCity" placeholder="City" />
+          <div className="form-row">
+            <div className="form-group col-md-6">
+              <input type="text" className="form-control" id="inputCity" placeholder="City" />
             </div>
-            <div class="form-group col-md-4">
-              <select id="inputState" class="form-control ">
+            <div className="form-group col-md-4">
+              <select id="inputState" className="form-control ">
                 <option selected>County...</option>
                 <option>...</option>
               </select>
             </div>
-            <div class="form-group col-md-2">
-              <input type="text" class="form-control" id="inputZip" placeholder="Postcode" />
+            <div className="form-group col-md-2">
+              <input type="text" className="form-control" id="inputZip" placeholder="Postcode" />
             </div>
           </div>
-          <div class="form-group">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Hire Enquiry"></textarea>
+          <div className="form-text-desc">
+            <h4>
+              Please give a breif descrition of your event.
+            </h4>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <div className="form-group">
+            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Hire Enquiry"></textarea>
+          </div>
+          <button type="submit" className="btn btn-primary">Submit</button>
         </form>
       </div>
     </div>
